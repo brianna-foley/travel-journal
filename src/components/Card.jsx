@@ -1,4 +1,5 @@
 import React from "react"
+import location from '../images/location.png'
 
 export default function Card(props) {
     const img = props.place.imageUrl
@@ -8,7 +9,7 @@ export default function Card(props) {
             <div className='card--image margin-left' style={{backgroundImage: `url(${img})`}}></div>
             <section className='card--info'>
                 <div className='card--location'>
-                    <img src='../src/images/location.png' className='margin-right'/>
+                    <img src={location} className='margin-right'/>
                     <p className='margin-right'>{props.place.location}</p>
                     <a href={props.place.googleMapsUrl} className='margin-right card--location-link'>View on Google Maps</a>
                 </div>

@@ -35,7 +35,7 @@
 /* Navbar content begin */
 .navbar {
   background-color: #F21B3F;
-  color: #D7DEDC;
+  color: #f6f2f2;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -64,6 +64,7 @@
   background-position: center;
   border-radius: 5px;
 }
+
 .card--info {
   display: flex;
   flex-direction: column;
@@ -91,6 +92,8 @@
 
 .card--dates {
   font-size: 10px;
+  font-weight: 700;
+  padding-bottom: 5px;
 }
 
 .card--location-link {
@@ -98,5 +101,4 @@
 
 
 }
-
 /* Card content end */
